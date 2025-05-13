@@ -37,8 +37,8 @@ export interface Candidate {
         email: string,
         role: UserRole.CANDIDATE,
         profileImage: string,
-        approved: true,
-        isProfileVisible: true,
+        approved: boolean,
+        isProfileVisible: boolean,
         personal: {
           age: number,
           gender: string,
